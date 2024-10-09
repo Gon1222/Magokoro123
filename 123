@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訪問マッサージサービス</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .services, .testimonials, .contact {
+            padding: 40px;
+            text-align: center;
+        }
+        .services h2, .testimonials h2, .contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>訪問マッサージサービス</h1>
+</header>
+
+<div class="hero">
+    <h1>自宅でリラックスできるマッサージを</h1>
+</div>
+
+<section class="services">
+    <h2>サービス内容</h2>
+    <p>当社では、訪問マッサージ、リラクゼーション、リハビリなど、幅広いサービスを提供しています。</p>
+</section>
+
+<section class="testimonials">
+    <h2>お客様の声</h2>
+    <p>"とても満足しています！自宅でこのようなサービスが受けられて嬉しいです。"</p>
+    <p>"プロフェッショナルな対応で、毎回リラックスできます。"</p>
+</section>
+
+<section class="contact">
+    <h2>ご予約・お問い合わせ</h2>
+    <a href="contact.html" class="cta-button">今すぐ予約</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 訪問マッサージサービス | 全ての権利を保有</p>
+</footer>
+
+</body>
+</html>
